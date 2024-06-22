@@ -1,0 +1,92 @@
+@import "clash-display.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Clash Display';
+}
+
+h1 {
+    font-family: "Clash Display";
+    font-size: 60.607px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 81px; /* 133.648% */
+}
+
+h2 {
+    text-align: center;
+    font-family: "Clash Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 81px; /* 168.75% */
+}
+
+h3 {
+    font-family: "Clash Display";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 35.2px */
+    letter-spacing: -0.352px;
+}
+
+input[type="text"], input[type="password"]  {
+    border-radius: 12px;
+    border: 1px solid rgba(197, 202, 203, 0.40);
+    background: rgba(255, 255, 255, 0.20);
+    display: flex;
+    padding: 12px 20px;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+    color: var(--Color-White, #FFF);
+    font-family: "Clash Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+
+
+.center {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 100px;
+    text-align: center;
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 600;
+}
+
+.primary-btn {
+    background: #C4F041;
+    color:black;
+    border: none;
+}
+
+.secondary-btn {
+    border: 1px solid #C4F041;
+    color:#C4F041
+}
+
+footer {
+    display: flex;
+    padding: 100px 141px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background: #28282A;
+}
+
+.nuxt-link-active {
+color: #C4F041;
+}
